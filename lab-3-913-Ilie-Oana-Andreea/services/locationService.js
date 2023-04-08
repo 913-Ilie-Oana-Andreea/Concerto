@@ -15,7 +15,7 @@ module.exports = {
 }
 
 function populate() {
-    let generate = true;
+    let generate = false;
     if(generate === true) {
         const fs = require('fs');
 
